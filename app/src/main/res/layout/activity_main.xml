@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:columnCount="4"
+    android:gravity="center|bottom"
+    android:rowCount="7"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/valoraxvariant"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/valoraxvariant"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/divide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/subtract"
+        style="@style/operatorbtns"
+        android:paddingTop="20dp"
+        android:paddingRight="14dp"
+        android:text="-"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+        app:layout_constraintEnd_toStartOf="@+id/divide"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/divide"
+        style="@style/operatorbtns"
+        android:paddingTop="25dp"
+        android:paddingRight="13dp"
+        android:text="/"
+        android:textSize="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/nine"
+        app:layout_constraintEnd_toStartOf="@+id/multiply"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/subtract"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/plus"
+        style="@style/operatorbtns"
+        android:paddingTop="20dp"
+        android:paddingEnd="15dp"
+        android:text="+"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/seven"
+        app:layout_constraintEnd_toStartOf="@+id/subtract"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/multiply"
+        style="@style/operatorbtns"
+        android:paddingTop="25dp"
+        android:paddingRight="25dp"
+        android:text="*"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/allclear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/divide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/eight"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:text="8"
+        app:layout_constraintBottom_toTopOf="@+id/five"
+        app:layout_constraintEnd_toStartOf="@+id/nine"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/seven" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/nine"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:text=" 9 "
+        app:layout_constraintBottom_toTopOf="@+id/six"
+        app:layout_constraintEnd_toStartOf="@+id/allclear"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/eight" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/seven"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:text=" 7 "
+        app:layout_constraintBottom_toTopOf="@+id/four"
+        app:layout_constraintEnd_toStartOf="@+id/eight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/allclear"
+        style="@style/operatorbtns"
+        android:paddingTop="32dp"
+        android:paddingRight="10dp"
+        android:text="AC"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/backspace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nine" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/five"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:text=" 5 "
+        app:layout_constraintBottom_toTopOf="@+id/two"
+        app:layout_constraintEnd_toStartOf="@+id/six"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/four" />
+
+    <soup.neumorphism.NeumorphImageButton
+        android:id="@+id/backspace"
+        style="@style/operatorbtns"
+        android:gravity="center"
+        android:padding="35dp"
+        android:src="@drawable/baseline_backspace_24"
+        app:layout_constraintBottom_toTopOf="@+id/equals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/six" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/four"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:text=" 4 "
+        app:layout_constraintBottom_toTopOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/five"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/six"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:text=" 6 "
+        app:layout_constraintBottom_toTopOf="@+id/three"
+        app:layout_constraintEnd_toStartOf="@+id/backspace"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/five" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/zero"
+        style="@style/digitbtn"
+        android:layout_width="294dp"
+        android:gravity="center"
+        android:text=" 0 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/equals"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/two"
+        style="@style/digitbtn"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:text=" 2 "
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/three"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/one" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/three"
+        style="@style/digitbtn"
+        android:text=" 3 "
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/equals"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/two" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/one"
+        style="@style/digitbtn"
+        android:paddingRight="12dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/two"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/equals"
+        style="@style/operatorbtns"
+        android:layout_height="196dp"
+        android:gravity="center"
+        android:text="="
+        tools:ignore="HardcodedText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toEndOf="@+id/three" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

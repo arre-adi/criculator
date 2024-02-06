@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="digitbtn">
+        <item name="android:fontFamily">@font/valoraxvariant</item>
+        <item name="android:layout_width">98dp</item>
+        <item name="android:layout_height">98dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#353333</item>
+        <item name="neumorph_backgroundColor">#FFFFFF</item>
+        <item name="neumorph_shadowColorDark">#4DBDBDBD</item>
+        <item name="neumorph_shadowColorLight">#6DFBFBFB</item>
+        <item name="neumorph_shadowElevation">3dp</item>
+        <item name="neumorph_shapeType">basin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center</item>
+
+
+    </style>
+
+    <style name="operatorbtns">
+        <item name="android:fontFamily">@font/valoraxvariant</item>
+        <item name="android:layout_width">98dp</item>
+        <item name="android:layout_height">98dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#F8F8F8</item>
+        <item name="neumorph_backgroundColor">#ED6826</item>
+        <item name="neumorph_shadowColorDark">#4DBDBDBD</item>
+        <item name="neumorph_shadowColorLight">#6DFBFBFB</item>
+        <item name="neumorph_shadowElevation">3dp</item>
+        <item name="neumorph_shapeType">basin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingRight">16dp</item>
+
+
+    </style>
+
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
