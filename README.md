@@ -1,6 +1,6 @@
 # Cricket Calculator
 
-Hey there! Welcome to my quirky little calculator app with a cricket twist.
+Hey there! Welcome to my calculator app with a cricket twist.
 
 ![Cricket Calculator App](https://via.placeholder.com/600x300?text=Cricket+Calculator+Screenshot)
 
@@ -16,7 +16,7 @@ It's a normal calculator, but with a fun surprise. Type in your favorite cricket
 
 ## Want to try it out?
 
-Great! Just grab the APK from this link: [Download Cricket Calculator APK](https://your-download-link-here.com)
+Great! Just grab the APK from this link: [Download Cricket Calculator APK](https://drive.google.com/drive/folders/1BWJ6JyQX7le0sn3isJMG-IM_K3BBEZ6S?usp=drive_link)
 
 Once you've got it, just install it on your Android phone and you're good to go!
 
