@@ -20,6 +20,7 @@
 
         android:fontFamily="@font/valoraxvariant"
         android:padding="10dp"
+        android:textColor="@color/logrey"
         android:text=""
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/result"

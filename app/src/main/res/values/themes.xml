@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Set the status bar color to black -->
+        <item name="android:statusBarColor">#F8F8F8</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
 
@@ -32,7 +33,7 @@
         <item name="android:clickable">true</item>
         <item name="android:textSize">40sp</item>
         <item name="android:textColor">#F8F8F8</item>
-        <item name="neumorph_backgroundColor">#ED6826</item>
+        <item name="neumorph_backgroundColor">#E0692E</item>
         <item name="neumorph_shadowColorDark">#4DBDBDBD</item>
         <item name="neumorph_shadowColorLight">#6DFBFBFB</item>
         <item name="neumorph_shadowElevation">3dp</item>
