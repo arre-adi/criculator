@@ -2,7 +2,7 @@
 
 Hey there! Welcome to my calculator app with a cricket twist.
 
-![Cricket Calculator App](https://via.placeholder.com/600x300?text=Cricket+Calculator+Screenshot)
+![Cricket Calculator App]![criculator_logo](https://github.com/user-attachments/assets/59c93aad-272a-455e-989c-2135b6f3039b)
 
 ## What's this all about?
 
