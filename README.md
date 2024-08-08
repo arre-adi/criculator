@@ -1,4 +1,4 @@
-# Cricket Calculator
+# Crickulator
 Hey there! Welcome to my calculator app with a cricket twist.
 
 ## What's this all about?
