@@ -15,9 +15,9 @@ Once you've got it, just install it on your Android phone and you're good to go!
 
 ## Tech used
 Here's what I used to build this:
-- Android Studio
-- Kotlin
-- XML 
+- Android Studio - Kotlin - XML 
+
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android Studio" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" width="40" height="40"/>
