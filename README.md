@@ -1,7 +1,5 @@
 # Cricket Calculator
 
-<img src="https://github.com/user-attachments/assets/59c93aad-272a-455e-989c-2135b6f3039b" alt="criculator_logo" width="150" align="right">
-
 Hey there! Welcome to my calculator app with a cricket twist.
 
 ## What's this all about?
