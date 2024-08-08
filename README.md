@@ -19,11 +19,11 @@ Here's what I used to build this:
 - Kotlin
 - XML 
 
+
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/32a4aa48-a4e6-453c-bd33-2327fd725b96)
-" alt="Android Studio" width="40" height="40"/>
+  <img src="!https://github.com/user-attachments/assets/7c50d8e1-1419-4999-907f-3e200e18cb1d" alt="Android Studio" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xml/xml-original.svg" alt="XML" width="40" height="40"/>
+  <img src="https://github.com/user-attachments/assets/d58b8301-db1a-4605-8f47-20213625d95a" alt="XML" width="40" height="40"/>
 </div>
 
 ## Want to make it even better?
