@@ -20,7 +20,8 @@ Here's what I used to build this:
 - XML 
 
 <div align="center">
-  <img src="https://www.google.com/imgres?q=android%20studio%20icon&imgurl=https%3A%2F%2Fuxwing.com%2Fwp-content%2Fthemes%2Fuxwing%2Fdownload%2Fbrands-and-social-media%2Fandroid-studio-icon.png&imgrefurl=https%3A%2F%2Fuxwing.com%2Fandroid-studio-icon%2F&docid=XiHNllogb0mn3M&tbnid=TLjkAyg29eZ0aM&vet=12ahUKEwiWg7mYhOaHAxWKr1YBHQHOCtAQM3oECGcQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwiWg7mYhOaHAxWKr1YBHQHOCtAQM3oECGcQAA" alt="Android Studio" width="40" height="40"/>
+  <img src="![image](https://github.com/user-attachments/assets/32a4aa48-a4e6-453c-bd33-2327fd725b96)
+" alt="Android Studio" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xml/xml-original.svg" alt="XML" width="40" height="40"/>
 </div>
