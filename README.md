@@ -31,5 +31,5 @@ Feel free to tinker with it! Add more sounds, throw in some new cricket facts, o
 
 ##
 <div align="center">
-Made by Aditya Chaurasia 👾
+made by aditya chaurasia 👾
 </div>
