@@ -23,7 +23,7 @@ Here's what I used to build this:
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7c50d8e1-1419-4999-907f-3e200e18cb1d" alt="Android Studio" width="80" height="80"/>
   <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" width="80" height="80"/>
-  <img src="https://github.com/user-attachments/assets/d5fdbda8-24c0-4b4f-bf60-77584cca3e93" alt="XML" width="80" height="80"/>
+  <img src="https://github.com/user-attachments/assets/1cf37f7c-9010-4ee8-92e6-2d4f776126f2" alt="XML" width="80" height="80"/>
 </div>
 
 ## Want to make it even better?
