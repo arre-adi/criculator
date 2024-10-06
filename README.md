@@ -10,7 +10,7 @@ It's a normal calculator, but with a fun surprise. Type in your favorite cricket
 - Maybe hear a thing or two when you punch in certain numbers (hint: think jersey numbers)
 
 ## How to install?
-Just grab the APK from this link: [Download Cricket Calculator APK]()
+Just grab the APK from this link:"Will share soon"
 Once you've got it, just install it on your Android phone and you're good to go!
 
 ## Tech used
